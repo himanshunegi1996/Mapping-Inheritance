@@ -1,10 +1,10 @@
-package com.cg.jpatable.entities;
+package com.cg.jpajtable.entities;
 
 import javax.persistence.EntityManager;
 import javax.persistence.EntityManagerFactory;
 import javax.persistence.Persistence;
 
-public class Inheritance{
+public class Inheritance2{
 	public static void main(String[] args) {
 	
 	EntityManagerFactory factory = Persistence.createEntityManagerFactory("JPA-PU");
@@ -12,17 +12,17 @@ public class Inheritance{
 	em.getTransaction().begin();
 	
 	//create one employee
-	Employee1 employee = new Employee1();
-	employee.setName("Himanshu Negi");
-	employee.setSalary(12000);
+	Employee2 employee = new Employee2();
+	employee.setName("Pratiksha");
+	employee.setSalary(18000);
 	em.persist(employee);
 	
 	//create one manager
-	Manager1 manager = new Manager1();
-	manager.setName("Awantika Maam");
-	manager.setSalary(120000);
-	manager.setDeptName("Mentor");
-	em.persist(manager);
+//	Manager2 manager = new Manager2();
+//	manager.setName("Ruchika");
+//	manager.setSalary(140000);
+//	manager.setDeptName("Sales");
+//	em.persist(manager);
 	
 	
 	

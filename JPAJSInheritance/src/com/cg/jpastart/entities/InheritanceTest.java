@@ -11,18 +11,18 @@ public class InheritanceTest{
 	EntityManager em = factory.createEntityManager();
 	em.getTransaction().begin();
 	
-	//create one employee
+//	//create one employee
 	Employee employee = new Employee();
-	employee.setName("John");
-	employee.setSalary(5000);
+	employee.setName("Himanshu");
+	employee.setSalary(12000);
 	em.persist(employee);
 	
 	//create one manager
-	Manager manager = new Manager();
-	manager.setName("Trisha");
-	manager.setSalary(8000);
-	manager.setDepartmentName("Sales");
-	em.persist(manager);
+//	Manager manager = new Manager();
+//	manager.setName("Mahesh");
+//	manager.setSalary(15000);
+//	manager.setDepartmentName("networking");
+//	em.persist(manager);
 	
 	
 	

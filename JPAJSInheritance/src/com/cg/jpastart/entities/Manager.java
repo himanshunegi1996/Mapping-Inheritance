@@ -4,7 +4,7 @@ import javax.persistence.Entity;
 import javax.persistence.Table;
 
 @Entity
-@Table(name="mgr_store")
+//@Table(name="mgr_store")
 public class Manager extends  Employee {
 
 	private static final long serialVersionUID = 1L;

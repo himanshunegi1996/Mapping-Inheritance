@@ -1,11 +1,11 @@
-package com.cg.jpatable.entities;
+package com.cg.jpajtable.entities;
 
 import javax.persistence.Entity;
 import javax.persistence.Table;
 
 @Entity
-@Table(name="mgr_store")
-public class Manager1 extends  Employee1 {
+@Table(name="mgr2_store")
+public class Manager2 extends  Employee2 {
 
 	private static final long serialVersionUID = 1L;
 	
